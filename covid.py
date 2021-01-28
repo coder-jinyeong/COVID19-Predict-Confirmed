@@ -47,5 +47,3 @@ print(forecast[['ds', 'yhat', 'yhat_lower','yhat_upper']])
 #그래프로 결과 보기
 fig = plot_plotly(m, forecast)
 fig.show()
-
-#그래프상 검은점은 실제 값이고 그 이후부터의 예측값을 확인할 수 있다.
